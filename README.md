@@ -1,4 +1,8 @@
-# ETF基金评价
+# ETF 基金评价
+
+简体中文 | [English](README.en.md)
+
+> QuantSkills 社区项目，由 GitHub 用户 `cikeqi` 维护。项目尚未经过独立审核，不代表 QuantSkills 官方认证，也不承诺收益或生产环境适用性。
 
 严格使用 PandaData 评价境内非QDII被动股票指数ETF，支持单只深度评价和同一标的指数横向比较。
 
@@ -92,3 +96,16 @@ python3.11 scripts/etf_fund_evaluator.py --probe-only
 ```bash
 python3.11 -m unittest discover -s tests -v
 ```
+
+## 数据来源、假设与限制
+
+- 数据来源：仅使用 PandaData；具体接口、字段和数据边界见 `references/`。
+- 关键假设：同一标的指数的境内非 QDII 被动股票 ETF 可以进行横向比较；缺失指标按可用权重归一化。
+- 已知限制：申赎清单不等于真实基金持仓；资金流不代表未来收益；费用率、完整场外净值及定期报告持仓不在当前评价范围。
+- 风险边界：输出仅供研究与教育，不构成投资建议、收益承诺、产品推荐或自动交易指令。
+
+## 维护与许可
+
+- 维护者：GitHub 用户 `cikeqi`
+- 仓库：`quantskills/skill-etf-fund-evaluator`
+- 许可：[GNU GPL v3.0 only](LICENSE)（SPDX：`GPL-3.0-only`）

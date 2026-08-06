@@ -1,0 +1,7 @@
+interface:
+  display_name: "ETF 基金评价"
+  short_description: "评价境内股票指数 ETF 的跟踪、风险、流动性与资金流"
+  default_prompt: "Use $skill-etf-fund-evaluator to evaluate an A-share index ETF's tracking quality, risk-adjusted performance, liquidity, fund flows, and peer position."
+
+policy:
+  allow_implicit_invocation: true

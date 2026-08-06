@@ -1,13 +1,22 @@
 ---
-name: etf-fund-evaluator
+name: skill-etf-fund-evaluator
 description: >-
   境内股票指数ETF评价与同类比较：严格使用 PandaData，评价跟踪质量、风险收益、流动性与折溢价、规模与资金流、产品稳健性五个维度，输出0–100分、同类排名和1–5星。当用户说“评价ETF”“ETF哪个好”“比较沪深300ETF”“看跟踪误差”“ETF基金测评”“找流动性好的ETF”时触发。首版不评价场外公私募基金、QDII ETF或主动管理能力。
 metadata:
+  organization: QuantSkills
+  organization_url: https://github.com/quantskills
+  repository: skill-etf-fund-evaluator
+  repository_url: https://github.com/quantskills/skill-etf-fund-evaluator
+  project_type: skill
+  collection: fund-evaluation
   type: quant
-  version: 1.0.0
+  version: 1.0.1
+  license: GPL-3.0-only
 ---
 
 # 境内股票指数 ETF 评价
+
+> QuantSkills 社区项目，由 GitHub 用户 `cikeqi` 维护。项目尚未经过独立审核，不代表 QuantSkills 官方认证，也不承诺收益或生产环境适用性。
 
 ## 能做什么
 

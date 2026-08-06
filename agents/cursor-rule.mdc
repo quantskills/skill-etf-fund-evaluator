@@ -1,0 +1,13 @@
+---
+description: Evaluate mainland China passive equity-index ETFs with PandaData.
+globs:
+alwaysApply: false
+---
+
+# ETF Fund Evaluation
+
+Read `../SKILL.md` before acting. Follow its PandaData-only source boundary, peer-group rules, point-in-time constraints, missing-data treatment, and reporting requirements.
+
+Use the programs in `../scripts/` rather than reimplementing calculations. Load only the reference files required for the current request. Credentials must come from the documented local configuration and must never be written to code, output, or version control.
+
+Treat all results as research material. Never promise returns, provide personalized investment advice, recommend automatic trades, or imply official QuantSkills certification.
