@@ -98,3 +98,7 @@ python3.11 $SKILL/scripts/etf_fund_evaluator.py --probe-only
 - 费用率、完整场外净值和定期报告持仓暂不在 PandaData 当前可用数据中，不能评价“费率最低”或主动管理能力；
 - `get_fund_daily` 单次查询不超过一年，脚本会自动分段；
 - 报告仅供研究参考，不构成投资建议。
+
+## Pandadata compatibility
+
+[Pandadata 1.0.6 compatibility](references/pandadata-compatibility.md) — exact SDK baseline, validation scope, and shared guidance for all supported agent runtimes.
