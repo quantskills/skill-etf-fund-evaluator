@@ -109,3 +109,6 @@ python3.11 -m unittest discover -s tests -v
 - 维护者：GitHub 用户 `cikeqi`
 - 仓库：`quantskills/skill-etf-fund-evaluator`
 - 许可：[GNU GPL v3.0 only](LICENSE)（SPDX：`GPL-3.0-only`）
+
+
+Pandadata 兼容维护：[abgyjaguo](https://github.com/abgyjaguo)，保留原项目作者署名。
